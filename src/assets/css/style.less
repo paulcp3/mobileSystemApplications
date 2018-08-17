@@ -1,0 +1,304 @@
+.user-home {
+    box-sizing: border-box;
+    padding-top: 46px;
+    .vux-header {
+        background-color: @own;
+        *{
+            color: #fff;
+        }
+        .vux-header-left .vux-header-back {
+            color: #fff;
+        }
+        .left-arrow:before {
+            border: 1px solid #fff;
+        }
+    }
+}
+.head-nav {
+    padding-top: 46px;
+    box-sizing: border-box;
+    .vux-header {
+        background-color: @own;
+        *{
+            color: #fff;
+        }
+        .vux-header-left .vux-header-back {
+            color: #fff;
+        }
+        .left-arrow:before {
+            border: 1px solid #fff;
+        }
+    }
+}
+.tabbar-foot{
+    .weui-tabbar__item.weui-bar__item_on{
+        .weui-tabbar__icon,.weui-tabbar__label{
+        color: #ff7800
+            
+        }
+    }
+}
+.weui-cells_radio .weui-check:checked + .weui-icon-checked:before {
+
+    color: #ff7800!important;
+
+}
+.weui-dialog__btn_primary {
+    color: #ff7800!important;
+}
+.dp-header .dp-item.dp-right {
+    color: #ff7800!important;
+}
+.home-index{
+    width: 100%;
+    height: 100%;
+    .dialog-chart{
+        width: 100%;
+        height: 100%;
+        .weui-dialog{
+            background-color: transparent;
+    
+            height: 100%;
+            max-width: 100%;
+
+        }
+        .weui-mask{
+            background-color: #fff;
+        }
+        .dialog-close{
+            position: absolute;
+            bottom: 0;
+            width: 50px;
+            display: inline-block;
+            z-index: 99;
+        }
+    }
+  
+}
+.ellipsis-3 {
+    display: -webkit-box;
+    display: -moz-box;
+    overflow: hidden;
+    white-space: normal!important;
+    text-overflow: ellipsis;
+    -moz-line-clamp: 3;
+    word-wrap: break-word;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.ellipsis-2 {
+    display: -webkit-box;
+    display: -moz-box;
+    overflow: hidden;
+ 
+    white-space: normal!important;
+    text-overflow: ellipsis;
+    -moz-line-clamp: 2;
+    word-wrap: break-word;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.ellipsis-1 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.data-bg{
+    position: relative;
+    padding-top: 30px!important;
+    min-height: 120px;
+    background-image: url(../images/none.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    .break-icon{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 99;
+        display: block;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+    p{
+        text-align: left;
+    }
+}
+.weui-cells{
+    font-size: 14px!important;
+}
+.MultiStore_contair{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+.FormTemplate{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+.bussiness-box{
+    width: 100%;
+    height: 100%;
+    
+    .MultiStore{
+        width: 100%;
+        height: 100%;
+    }
+}
+.equipment{
+    width: 100%;
+    height: calc(~"100% - 44px");
+    position: relative;
+}
+.vux-tab-item.vux-tab-selected {
+    color: #ff7800!important;
+    border-bottom: 3px solid #ff7800!important;
+}
+.vux-tab-ink-bar {
+
+    background-color: #ff7800!important;
+
+}
+
+.weui-switch:checked, .weui-switch-cp__input:checked ~ .weui-switch-cp__box {
+    border-color: #ff7800!important;
+    background-color: #ff7800!important;
+   
+}
+.analysis{
+    width: 100%;
+    height: calc(~"100% - 44px");
+    position: relative;
+    .x-check{
+        position: absolute;
+        top: 0;
+        z-index: 99;
+        .vux-x-switch{
+            padding-left: 15px;
+            overflow: hidden;
+            .weui-cell__bd{
+                line-height: 32px;
+            }
+            div{
+                float: right;
+            }
+            .weui-cell__ft{
+                margin-right: 5px;
+            }
+        }
+    }
+  
+    .vux-datetime-value,.weui-cell_access{
+        display: none;
+    }
+    .selectBtn{
+        display: inline-block;
+        width: auto;
+        position: absolute;
+        right: 10px;
+        z-index: 99;
+        color: #ff7800;
+        top: 5px;
+    }
+   
+    .chartBtn{
+        display: inline-block;
+        width: auto;
+        position: absolute;
+        left: 10px;
+        z-index: 99;
+        color: #ff7800;
+        top: 55px;
+        transform:rotate(90deg);
+        line-height: inherit;
+        height: 30px;
+
+        i{
+            
+            transform:rotateY(180deg);
+        }
+    }
+}
+.break-icon{
+    display: inline-block;
+   
+    vertical-align: middle;
+}
+.chartBtn{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    span{
+        color: #ff7800;
+        display: inline-block;
+
+    vertical-align: middle;
+    }
+}
+.style-dialog{
+    background-color: #fff!important;
+
+}
+.MultiStore_contair{
+    .vux-checker-box {
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+    }
+    .vux-checker-item{
+        width: 30.3%;
+    height: inherit;
+    margin-right: 0;
+    font-size: 12px;
+    }
+    .none_data{
+        width: 100%;
+    }
+}
+.cover{
+    .weui-cells{
+    padding: 10px 0;
+        
+    }
+
+    .weui-btn{
+        width: 50%;
+        line-height: 3;
+        font-size: 14px!important;
+      
+    }
+    
+}
+.weui-btn_plain-primary {
+    color: #ff7800!important;
+    border: 1px solid #ff7800!important;
+}
+.getchart{
+
+    position: fixed;
+    bottom: 60px;
+    left: 2.5%;
+    width: 95%;
+    .weui-btn_primary{
+        width: 100%;
+        line-height: 3;
+        font-size: 14px!important;
+        background-color: #ff7800!important;
+    }
+}
+.change-msg{
+   .weui-btn_primary{
+    font-size: 14px!important;
+    background-color: #ff7800!important;
+    margin-top: 15px;
+    width: 95%;
+    padding: 5px 0;
+   }
+
+}
